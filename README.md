@@ -50,6 +50,13 @@ The project includes:
 - Correlation heatmap
 - Actual vs Predicted SPY returns
 
+### Scatter Matrix
+![Scatter Matrix](images/scatter_matrix.png)
+### Correlation Heatmap
+![Correlation Heatmap](images/correlation_matrix.png)
+### Actual vs Predicted SPY Returns
+![Actual vs Predicted](images/predicted_vs_actual.png)
+
 ## Libraries
 - pandas
 - numpy
