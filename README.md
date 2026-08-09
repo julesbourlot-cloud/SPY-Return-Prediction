@@ -37,10 +37,11 @@ Period:
 The Japan-only model achieved the lowest out-of-sample RMSE.
 Adding additional Asian indices increased in-sample R² but did not improve predictive performance on unseen data, suggesting limited incremental explanatory power.
 
-                               Model                    Predictors   Test RMSE    Test R-Squared   Train R-Squared     Adjusted R-Squared
-0                              Japan                          N225   0.010889       -0.034614         0.069645            0.068713
-1                  Japan + Hong Kong                    N225 + HSI   0.011040       -0.063439         0.106628            0.104836
-2  Japan + Hong Kong + Korea + China  N225 + HSI + KS11 + Shanghai   0.011043       -0.064121         0.127309            0.123801
+| Model | Predictors | Test RMSE | Test R-Squared | Train R-Squared | Adjusted R-Squared |
+|-------|------------|----------:|---------------:|----------------:|-------------------:|
+| Japan | N225 | 0.010889 | -0.034614 | 0.069645 | 0.068713 |
+| Japan + Hong Kong | N225 + HSI | 0.011040 | -0.063439 | 0.106628 | 0.104836 |
+| Japan + Hong Kong + Korea + China | N225 + HSI + KS11 + Shanghai | 0.011043 | -0.064121 | 0.127309 | 0.123801 |
 
 ## Visualisations
 The project includes:
