@@ -1,4 +1,4 @@
-# SPY Return Prediction using Asian Equity Indices
+# SPY-Asian-Equity-Return-Modeling
 Predicting SPY daily log returns using multiple Asian indices in Python
 
 ## Overview
